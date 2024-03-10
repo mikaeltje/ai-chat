@@ -1,0 +1,39 @@
+#chat-history {
+    height: 200px; /* Pas dit aan naar de gewenste hoogte */
+    overflow-y: auto; /* Hiermee wordt scrollen ingeschakeld */
+    border: 1px solid #000; /* Voegt een rand toe aan de chatbox */
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+/*#chat-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*#music {*/
+/*    width: 80%;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid #ccc;*/
+/*}*/
+
+/*#answer {*/
+/*    width: 80%;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid #ccc;*/
+/*    background-color: #f9f9f9;*/
+/*}*/
+
+/*#submit {*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    border: none;*/
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/

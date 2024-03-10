@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="">
+    <h1>Music Mood enhancer</h1>
+    <div class="">
+        <input type="text" id="music" placeholder="In welke stemming ben je?">
+<!--        <input type="text" id="artist" placeholder="Artiest (optioneel)">-->
+        <div type="hidden" id="answer" class="hidden" ></div>
+        <button id="submit" onclick="music()">vraag</button>
+    </div>
+        <div id="loadingSpinner" class="hidden"></div>
+    </div>
+
+<div id="chat-history"></div>
+
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

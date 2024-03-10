@@ -1,0 +1,33 @@
+{
+  "name": "ai-muziek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaeltje/ai-muziekbot.git"
+  },
+  "author": "Mikael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikaeltje/ai-muziekbot/issues"
+  },
+  "homepage": "https://github.com/mikaeltje/ai-muziekbot#readme",
+  "dependencies": {
+    "@langchain/openai": "^0.0.18",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "langchain": "^0.1.25",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "express-session": "^1.18.0"
+  }
+}
