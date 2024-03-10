@@ -1,39 +1,65 @@
 #chat-history {
-    height: 200px; /* Pas dit aan naar de gewenste hoogte */
-    overflow-y: auto; /* Hiermee wordt scrollen ingeschakeld */
-    border: 1px solid #000; /* Voegt een rand toe aan de chatbox */
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #000;
     padding: 10px;
     margin-bottom: 10px;
     width: 50%;
 }
-/*#chat-container {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    gap: 10px;*/
-/*}*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
 
-/*#music {*/
-/*    width: 80%;*/
-/*    padding: 10px;*/
-/*    border-radius: 5px;*/
-/*    border: 1px solid #ccc;*/
-/*}*/
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-/*#answer {*/
-/*    width: 80%;*/
-/*    padding: 10px;*/
-/*    border-radius: 5px;*/
-/*    border: 1px solid #ccc;*/
-/*    background-color: #f9f9f9;*/
-/*}*/
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-/*#submit {*/
-/*    padding: 10px 20px;*/
-/*    border-radius: 5px;*/
-/*    border: none;*/
-/*    background-color: #4CAF50;*/
-/*    color: white;*/
-/*    cursor: pointer;*/
-/*}*/
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.chat-history {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-history p {
+    margin: 5px 0;
+}
